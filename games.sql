@@ -21,7 +21,3 @@ group by Season
 select Season , Sport ,count(Sport) as 'Number of sports'
 from [Athletes Dataset].[games].[Athletes_summer_games]
 group by Season , Sport
-
--- Q2 : Top 10 of the most participants of sport per city
-
-select 
